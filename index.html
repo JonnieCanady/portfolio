@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Jonnie's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <nav>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+            <img id="toggle" src="Assets\brightness.png">
+        </nav>
+
+        <header>
+            <img src="lake5.jpg">
+            <div id="header">
+                <h2>Hello! My Name Is</h2>
+                <h1>Jonnie Canady</h1>
+                <h2>I'm A Developer,</h2>
+                <h2>And I Love To Code</h2>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="quote">
+                <p>"Coding has been a passion of mine since 2020. I love building apps, testing ideas, and solving programming puzzles. I earned my Bachelor's of Business Administration from Middle Tennessee State University with a 3.5 GPA. There, I volunteered with The First Hello, a student group dedicated to suicide prevention. I've since learned several programming languages and become a full stack certified web dev on Codecademy.com."</p>
+            </div>
+
+            <div id="skills">
+                <h3>My Coding Skills:</h3>
+                <div class="skills-div">
+                    <div class="skill">
+                        <h4>HTML5</h4>
+                        <img src="Assets\html5.png">
+                    </div>
+                    <div class="skill">
+                        <h4>CSS</h4>
+                        <img src="Assets\css-3.png">
+                    </div>
+                    <div class="skill">
+                        <h4>JavaScript</h4>
+                        <img src="Assets\java-script.png">
+                    </div>
+                </div>
+                <div class="skills-div">
+                    <div class="skill">
+                        <h4>SQL</h4>
+                        <img src="Assets\sql.png">
+                    </div>
+                    <div class="skill">
+                        <h4>Git</h4>
+                        <img src="Assets\git.png">
+                    </div>
+                    <div class="skill">
+                        <h4>React</h4>
+                        <img src="Assets\react.png">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer id="contact">
+            <h3>Contact:</h3>
+            <form action="https://formsubmit.co/jonniecanady@yahoo.com" method="POST" enctype="text/plain" name="EmailForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Your Message:</label>
+                <textarea id="message" rows="6" required></textarea>
+                <br>
+                <input id="submit" type="submit" value="Send">
+            </form>
+        </footer>
+
+        
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
